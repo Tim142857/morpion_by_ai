@@ -12,7 +12,7 @@ Ce projet consiste à créer un jeu du morpion accessible sur une page web. Il p
 2. Ouvrez le fichier `index.html` dans votre navigateur pour commencer à jouer.
 
 ## Contribuer
-N'hésitez pas à contribuer en soumettant des pull requests ou en ouvrant des issues. 
+N'hésitez pas à contribuer en soumettant des pull requests ou en ouvrant des issues.
 
 ## Auteurs
 - [Tim142857](https://github.com/Tim142857)
