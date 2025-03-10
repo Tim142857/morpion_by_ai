@@ -1,0 +1,1 @@
+Cette PR implémente la fonctionnalité décrite dans l’issue : https://github.com/Tim142857/morpion_by_ai/issues/69
