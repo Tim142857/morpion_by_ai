@@ -1,0 +1,7 @@
+<h1 id="title">Titre du Jeu</h1>
+<button id="changeColorButton">Changer la couleur du titre</button>
+<script>
+    document.getElementById('changeColorButton').addEventListener('click', function() {
+        document.getElementById('title').style.color = (document.getElementById('title').style.color === 'blue') ? 'red' : 'blue'; // Alterne entre rouge et bleu
+    });
+</script>
