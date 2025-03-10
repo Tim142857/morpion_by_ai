@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morpion by AI</title>
+</head>
+<body>
+    <h1 id="header">Bienvenue au jeu du Morpion !</h1>
+    <button id="colorChangeButton">Changer la couleur du titre</button>
+    <script>
+        // Fonction pour changer la couleur du titre
+        function changeHeaderColor() {
+            const header = document.getElementById('header');
+            header.style.color = header.style.color === 'blue' ? 'red' : 'blue'; // Alterne entre deux couleurs
+        }
+
+        // Ajoute un écouteur d'événements au bouton
+        const button = document.getElementById('colorChangeButton');
+        button.addEventListener('click', changeHeaderColor);
+    </script>
+</body>
+</html>
